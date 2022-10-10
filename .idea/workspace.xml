@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ccec011-b112-4ec9-bfc5-4d45f5605edd" name="Changes" comment="Show File Servlet">
+    <list default="true" id="3ccec011-b112-4ec9-bfc5-4d45f5605edd" name="Changes" comment="Commit and push">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ShowTextFileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShowFileServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/people-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/people-list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +30,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="2Fwj935uCeMRBJU9bMgLVAeKXuS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,9 +44,24 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson22web/ShowTextFileServlet.java"
+    "last_opened_file_path": "C:/Users/Honour/IdeaProjects/TinderApp/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Honour\IdeaProjects\TinderApp\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Honour\IdeaProjects\TinderApp\src\main\resources" />
+      <recent name="C:\Users\Honour\IdeaProjects\TinderApp\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ServerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ServerApp" />
@@ -76,14 +100,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665413892473</updated>
     </task>
-    <task id="LOCAL-00003" summary="Show File Servlet">
-      <created>1665419433160</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1665419433160</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +121,6 @@
     <MESSAGE value="Commit and push" />
     <MESSAGE value="Test Servet" />
     <MESSAGE value="Test Servlet" />
-    <MESSAGE value="Show File Servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Show File Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Servlet" />
   </component>
 </project>

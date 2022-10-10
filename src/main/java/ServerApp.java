@@ -4,10 +4,10 @@ import org.eclipse.jetty.servlet.ServletHolder;
 
 public class ServerApp {
     public static void main(String[] args) throws Exception {
-        Server server = new Server(8080);
+        Server server = new Server(2022);
         ServletContextHandler handler = new ServletContextHandler();
         handler.addServlet(new ServletHolder(new TestServlet()),"/users");
-        handler.addServlet(new ServletHolder(new ShowFileServlet()),"/show");
+        handler.addServlet(new ServletHolder(new StaticFileServlet()),"/show");
         server.setHandler(handler);
         server.start();
         server.join();
