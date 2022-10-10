@@ -1,20 +1,3 @@
-## The task 
-
-#### Create the MVP of a dating app similar to Tinder
-
-You can find ready HTML templates of all needed pages in the [templates](./templates) folder.
-
-#### Teamwork
-
-All students will work on this project in groups of TWO persons. Group members may split the tasks on their own discretion.
-
-## A list of the working endpoints in a fully finished application:
-- /users
-- /liked
-- /messages/{id}
-- /login
-
-## Suggested order of tasks execution (you are not required to follow it):
 1. Create a new Maven app. Add required dependencies
 2. Launch Jetty web-server
 3. Create a test servlet which will output simple message 'Hello world' in the browser window
