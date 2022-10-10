@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ccec011-b112-4ec9-bfc5-4d45f5605edd" name="Changes" comment="">
+    <list default="true" id="3ccec011-b112-4ec9-bfc5-4d45f5605edd" name="Changes" comment="Show File Servlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/ABBTech/src/main/java/lesson22Web/ShowTextFileServlet.java"
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson22web/ShowTextFileServlet.java"
   }
 }]]></component>
   <component name="RunManager">
@@ -79,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665413892473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Show File Servlet">
+      <created>1665419433160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665419433160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +104,7 @@
     <MESSAGE value="Commit and push" />
     <MESSAGE value="Test Servet" />
     <MESSAGE value="Test Servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Servlet" />
+    <MESSAGE value="Show File Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show File Servlet" />
   </component>
 </project>
