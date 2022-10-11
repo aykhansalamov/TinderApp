@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Static File Servlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShowTextFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShowTextFileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson22web/StaticFileServlet.java",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -61,6 +58,8 @@
       <recent name="C:\Users\Honour\IdeaProjects\TinderApp\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\azari\IdeaProjects\TinderApp\src\main\resources" />
+      <recent name="C:\Users\azari\IdeaProjects\TinderApp\templates" />
       <recent name="C:\Users\Honour\IdeaProjects\TinderApp\src\main\resources" />
       <recent name="C:\Users\Honour\IdeaProjects\TinderApp\templates" />
     </key>
@@ -91,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665409892280</updated>
       <workItem from="1665409893680" duration="331000" />
-      <workItem from="1665495213548" duration="1246000" />
+      <workItem from="1665495213548" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1665410127947</created>
@@ -107,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665413892473</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Static File Servlet">
+      <created>1665496540257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665496540257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +134,7 @@
     <MESSAGE value="Commit and push" />
     <MESSAGE value="Test Servet" />
     <MESSAGE value="Test Servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Servlet" />
+    <MESSAGE value="Static File Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static File Servlet" />
   </component>
 </project>

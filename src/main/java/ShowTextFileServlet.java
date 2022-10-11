@@ -13,7 +13,6 @@ public class ShowTextFileServlet extends HttpServlet {
 // http://localhost:2022/show
   @Override
   protected void doGet(HttpServletRequest rq, HttpServletResponse rs) throws ServletException, IOException {
-
     String fileName = getClass().getClassLoader().getResource("people-list.html").getFile();
     List<String> lines = Files.readAllLines(Path.of(fileName.substring(1)));
     try (PrintWriter w = rs.getWriter()){

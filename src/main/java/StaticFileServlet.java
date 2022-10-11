@@ -18,5 +18,4 @@ public class StaticFileServlet extends HttpServlet {
       Files.copy(Path.of(fileName), os);
     }
   }
-
 }
