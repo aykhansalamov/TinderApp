@@ -15,12 +15,11 @@ public class ShowTextFileServlet extends HttpServlet {
   protected void doGet(HttpServletRequest rq, HttpServletResponse rs) throws ServletException, IOException {
 
     String fileName = getClass().getClassLoader().getResource("people-list.html").getFile();
-    List<String> lines = Files.readAllLines(Path.of(fileName));
+    List<String> lines = Files.readAllLines(Path.of(fileName.substring(1)));
     try (PrintWriter w = rs.getWriter()){
       for (String line: lines) {
         w.println(line);
       }
     }
   }
-
 }

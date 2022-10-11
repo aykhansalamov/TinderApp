@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ccec011-b112-4ec9-bfc5-4d45f5605edd" name="Changes" comment="Commit and push">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShowTextFileServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShowFileServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/people-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/people-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShowTextFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShowTextFileServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Fwj935uCeMRBJU9bMgLVAeKXuS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,8 +50,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Honour/IdeaProjects/TinderApp/src/main/resources",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson22web/StaticFileServlet.java",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -79,12 +85,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ccec011-b112-4ec9-bfc5-4d45f5605edd" name="Changes" comment="" />
+      <changelist id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="" />
       <created>1665409892280</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665409892280</updated>
       <workItem from="1665409893680" duration="331000" />
+      <workItem from="1665495213548" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1665410127947</created>

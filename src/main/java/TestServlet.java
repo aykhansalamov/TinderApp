@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class TestServlet extends HttpServlet {
-    // http://localhost:8080/users
+    // http://localhost:2022/users
     @Override
     protected void doGet(HttpServletRequest rq, HttpServletResponse rs) throws ServletException, IOException {
         try (PrintWriter w = rs.getWriter()) {

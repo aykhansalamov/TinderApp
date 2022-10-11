@@ -7,7 +7,8 @@ public class ServerApp {
         Server server = new Server(2022);
         ServletContextHandler handler = new ServletContextHandler();
         handler.addServlet(new ServletHolder(new TestServlet()),"/users");
-        handler.addServlet(new ServletHolder(new StaticFileServlet()),"/show");
+        handler.addServlet(new ServletHolder(new ShowTextFileServlet()),"/show");
+        handler.addServlet(new ServletHolder(new StaticFileServlet()),"/*");
         server.setHandler(handler);
         server.start();
         server.join();
