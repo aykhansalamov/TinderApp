@@ -1,0 +1,100 @@
+Index: src/main/resources/people-list.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n    <meta name=\"description\" content=\"\">\r\n    <meta name=\"author\" content=\"\">\r\n    <link rel=\"icon\" href=\"img/favicon.ico\">\r\n\r\n    <title>People list</title>\r\n    <link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.0.13/css/all.css\" integrity=\"sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp\" crossorigin=\"anonymous\">\r\n    <!-- Bootstrap core CSS -->\r\n    <link href=\"../../../templates/css/bootstrap.min.css\" rel=\"stylesheet\">\r\n\r\n    <!-- Custom styles for this template -->\r\n    <link rel=\"stylesheet\" href=\"../../../templates/css/style.css\">\r\n</head>\r\n<body>\r\n\r\n<div class=\"container\">\r\n    <div class=\"row\">\r\n        <div class=\"col-8 offset-2\">\r\n            <div class=\"panel panel-default user_panel\">\r\n                <div class=\"panel-heading\">\r\n                    <h3 class=\"panel-title\">User List</h3>\r\n                </div>\r\n                <div class=\"panel-body\">\r\n                    <div class=\"table-container\">\r\n                        <table class=\"table-users table\" border=\"0\">\r\n                            <tbody>\r\n                                <tr>\r\n                                    <td width=\"10\">\r\n                                        <div class=\"avatar-img\">\r\n                                            <img class=\"img-circle\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA\" />  \r\n                                        </div>\r\n\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Herbert Hoover\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Builder Sales Agent\r\n                                    </td>\r\n                                    <td  class=\"align-middle\">\r\n                                        Last Login:  6/10/2017<br><small class=\"text-muted\">5 days ago</small>\r\n                                    </td>\r\n                                </tr>\r\n                                <tr>\r\n                                    <td width=\"10\">\r\n                                        <div class=\"avatar-img\">\r\n                                            <img class=\"img-circle\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA\" />  \r\n                                        </div>\r\n\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Herbert Hoover\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Builder Sales Agent\r\n                                    </td>\r\n                                    <td  class=\"align-middle\">\r\n                                        Last Login:  6/10/2017<br><small class=\"text-muted\">5 days ago</small>\r\n                                    </td>\r\n                                </tr>\r\n                                <tr>\r\n                                    <td width=\"10\">\r\n                                        <div class=\"avatar-img\">\r\n                                            <img class=\"img-circle\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA\" />  \r\n                                        </div>\r\n\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Herbert Hoover\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Builder Sales Agent\r\n                                    </td>\r\n                                    <td  class=\"align-middle\">\r\n                                        Last Login:  6/10/2017<br><small class=\"text-muted\">5 days ago</small>\r\n                                    </td>\r\n                                </tr>\r\n                                <tr>\r\n                                    <td width=\"10\">\r\n                                        <div class=\"avatar-img\">\r\n                                            <img class=\"img-circle\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA\" />  \r\n                                        </div>\r\n\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Herbert Hoover\r\n                                    </td>\r\n                                    <td class=\"align-middle\">\r\n                                        Builder Sales Agent\r\n                                    </td>\r\n                                    <td  class=\"align-middle\">\r\n                                        Last Login:  6/10/2017<br><small class=\"text-muted\">5 days ago</small>\r\n                                    </td>\r\n                                </tr>\r\n                            </tbody>\r\n                        </table>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/people-list.html b/src/main/resources/people-list.html
+--- a/src/main/resources/people-list.html	(revision 83cbe8275551b2e28486529ecf82d5239866f50b)
++++ b/src/main/resources/people-list.html	(date 1665574994027)
+@@ -31,7 +31,7 @@
+                                 <tr>
+                                     <td width="10">
+                                         <div class="avatar-img">
+-                                            <img class="img-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxhcCYW4QDWMOjOuUTxOd50KcJvK-rop9qE9zRltSbVS_bO-cfWA" />  
++                                            <img class="img-circle" src="https://static-s.aa-cdn.net/img/gp/20600015528816/9HVHe9Hq6DlR1JjglOyoKjKbvPA5jF3pSrdjpD-Vb4Mj0nZ3rVj2ueXUk2iigwI9brg?v=1" />  
+                                         </div>
+ 
+                                     </td>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_18\" default=\"true\" project-jdk-name=\"openjdk-18\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 83cbe8275551b2e28486529ecf82d5239866f50b)
++++ b/.idea/misc.xml	(date 1665574295078)
+@@ -8,7 +8,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9d2c5cba-e592-47b6-b0d5-0c50488a926e\" name=\"Changes\" comment=\"Static File Servlet\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/StaticFileServlet.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/StaticFileServlet.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"useMavenConfig\" value=\"true\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Fwj935uCeMRBJU9bMgLVAeKXuS\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"last_opened_file_path\": \"C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson22web/StaticFileServlet.java\",\r\n    \"project.structure.last.edited\": \"SDKs\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.2\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Honour\\IdeaProjects\\TinderApp\\src\\main\\resources\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\azari\\IdeaProjects\\TinderApp\\src\\main\\resources\" />\r\n      <recent name=\"C:\\Users\\azari\\IdeaProjects\\TinderApp\\templates\" />\r\n      <recent name=\"C:\\Users\\Honour\\IdeaProjects\\TinderApp\\src\\main\\resources\" />\r\n      <recent name=\"C:\\Users\\Honour\\IdeaProjects\\TinderApp\\templates\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"ServerApp\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ServerApp\" />\r\n      <module name=\"TinderApp\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ServerApp\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"9d2c5cba-e592-47b6-b0d5-0c50488a926e\" name=\"Changes\" comment=\"\" />\r\n      <created>1665409892280</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1665409892280</updated>\r\n      <workItem from=\"1665409893680\" duration=\"331000\" />\r\n      <workItem from=\"1665495213548\" duration=\"2347000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Commit and push\">\r\n      <created>1665410127947</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665410127947</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Test Servlet\">\r\n      <created>1665413892472</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665413892473</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Static File Servlet\">\r\n      <created>1665496540257</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1665496540257</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Commit and push\" />\r\n    <MESSAGE value=\"Test Servet\" />\r\n    <MESSAGE value=\"Test Servlet\" />\r\n    <MESSAGE value=\"Static File Servlet\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Static File Servlet\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 83cbe8275551b2e28486529ecf82d5239866f50b)
++++ b/.idea/workspace.xml	(date 1665574954487)
+@@ -5,8 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Static File Servlet">
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/people-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/people-list.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -41,18 +44,18 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson22web/StaticFileServlet.java",
+-    "project.structure.last.edited": "SDKs",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson22web/StaticFileServlet.java&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\Honour\IdeaProjects\TinderApp\src\main\resources" />
+@@ -91,6 +94,7 @@
+       <updated>1665409892280</updated>
+       <workItem from="1665409893680" duration="331000" />
+       <workItem from="1665495213548" duration="2347000" />
++      <workItem from="1665574234694" duration="713000" />
+     </task>
+     <task id="LOCAL-00001" summary="Commit and push">
+       <created>1665410127947</created>

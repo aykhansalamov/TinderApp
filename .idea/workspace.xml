@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Static Servlet">
+    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Static File Servlet">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StaticFileServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/people-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/people-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/like-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/like-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1665409892280</updated>
       <workItem from="1665409893680" duration="331000" />
-      <workItem from="1665495213548" duration="2599000" />
-      <workItem from="1665572782833" duration="1313000" />
+      <workItem from="1665495213548" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1665410127947</created>
@@ -120,14 +116,7 @@
       <option name="project" value="LOCAL" />
       <updated>1665496540257</updated>
     </task>
-    <task id="LOCAL-00004" summary="Static Servlet">
-      <created>1665497795072</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1665497795072</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +138,6 @@
     <MESSAGE value="Test Servet" />
     <MESSAGE value="Test Servlet" />
     <MESSAGE value="Static File Servlet" />
-    <MESSAGE value="Static Servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Static Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Static File Servlet" />
   </component>
 </project>
