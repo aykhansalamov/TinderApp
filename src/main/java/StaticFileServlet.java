@@ -15,7 +15,7 @@ public class StaticFileServlet extends HttpServlet {
     if (requestedName.startsWith("/")) requestedName = requestedName.substring(1);
     String fileName = getClass().getClassLoader().getResource(requestedName).getFile();
     try (ServletOutputStream os = rs.getOutputStream()) {
-      Files.copy(Path.of(fileName), os);
+      Files.copy(Path.of(fileName.substring(1)), os);
     }
   }
 }
