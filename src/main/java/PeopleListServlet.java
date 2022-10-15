@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-public class ShowTextFileServlet extends HttpServlet {
+public class PeopleListServlet extends HttpServlet {
 
 // http://localhost:2022/show
   @Override

@@ -7,7 +7,10 @@ public class ServerApp {
         Server server = new Server(2022);
         ServletContextHandler handler = new ServletContextHandler();
         handler.addServlet(new ServletHolder(new TestServlet()),"/users");
-        handler.addServlet(new ServletHolder(new ShowTextFileServlet()),"/show");
+        handler.addServlet(new ServletHolder(new PeopleListServlet()),"/show");
+        handler.addServlet(new ServletHolder(new LikePageServlet()),"/likePage");
+        handler.addServlet(new ServletHolder(new ChatServlet()),"/chat");
+        handler.addServlet(new ServletHolder(new LoginServlet()),"/login");
         handler.addServlet(new ServletHolder(new StaticFileServlet()),"/*");
         server.setHandler(handler);
         server.start();
