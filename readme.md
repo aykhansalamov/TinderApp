@@ -31,3 +31,6 @@
 31. Use remote database
 32. Assemble the project into the executable JAR archive. Test locally that it is working
 33. Deploy the project on Heroku (or AWS)
+
+
+
