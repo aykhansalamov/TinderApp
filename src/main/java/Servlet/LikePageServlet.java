@@ -1,5 +1,7 @@
 package Servlet;
 
+
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +16,8 @@ import java.util.List;
 
 public class LikePageServlet extends HttpServlet {
 
+
+
     // http://localhost:2022/likePage
     @Override
     protected void doGet(HttpServletRequest rq, HttpServletResponse rs) throws ServletException, IOException {
@@ -23,6 +27,15 @@ public class LikePageServlet extends HttpServlet {
             for (String line: lines) {
                 w.println(line);
             }
+        }
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest rq, HttpServletResponse rs) throws ServletException, IOException {
+        try (PrintWriter w = rs.getWriter()){
+            String dislike = rq.getParameter("Dislike");
+            String like = rq.getParameter("Like");
+            w.printf("user entered: %s, %s", dislike,like);
         }
     }
 }

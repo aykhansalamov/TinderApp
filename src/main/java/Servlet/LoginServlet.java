@@ -1,5 +1,7 @@
 package Servlet;
 
+import collections.LikeCollection;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,7 +13,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class LoginServlet extends HttpServlet {
-
+LikeCollection likeCollection = new LikeCollection();
 
     // http://localhost:2022/login
     @Override
@@ -22,6 +24,15 @@ public class LoginServlet extends HttpServlet {
             for (String line: lines) {
                 w.println(line);
             }
+        }
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest rq, HttpServletResponse rs) throws ServletException, IOException {
+        try (PrintWriter w = rs.getWriter()){
+            String email = rq.getParameter("inputEmail");
+            String password = rq.getParameter("inputPassword");
+            w.printf("user entered: %s, %s", email,password);
         }
     }
 }

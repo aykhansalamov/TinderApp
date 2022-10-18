@@ -1,10 +1,14 @@
 import Servlet.*;
+import collections.UserCollection;
+import models.User;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
 public class ServerApp {
     public static void main(String[] args) throws Exception {
+//        UserCollection user = new UserCollection();
+//        System.out.println( user.save());
         Server server = new Server(2022);
         ServletContextHandler handler = new ServletContextHandler();
         handler.addServlet(new ServletHolder(new TestServlet()),"/users");
