@@ -4,34 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Output a static HTML page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/ChatCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/LikeCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/UserCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/ChatDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/LikeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Chat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Like.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/ChatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/LikeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_56_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-Oct-22_5_57_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12-Oct-22_15_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12-Oct-22_15_43__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15-Oct-22_10_59_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_15-Oct-22_10_59_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/LikePageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/LikePageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/like-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/like-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/people-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/people-list.html" afterDir="false" />
+    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="User class">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12-Oct-22_15_43_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12-Oct-22_15_43__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ChatDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ChatDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/LikeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/LikeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,24 +49,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/azari/IdeaProjects/Homeworks/src/main/java/homework9/FamilyDao.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/SelfStudy/src/main/java/dao",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="models" />
