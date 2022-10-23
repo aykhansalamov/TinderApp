@@ -43,14 +43,13 @@ public class LoginServlet extends HttpServlet {
             String email = rq.getParameter("inputEmail");
             String password = rq.getParameter("inputPassword");
 
-            rs.setContentType("text/html;charset=UTF-8");
-            PrintWriter out = rs.getWriter();
+            rs.setContentType("text/html");
+            PrintWriter pw=rs.getWriter();
 
-            String name = rq.getParameter("Sign in");
+            rs.sendRedirect("http://localhost:2022/likePage");
 
+            pw.close();
 
-            RequestDispatcher rd = rq.getRequestDispatcher("like-page.html");
-            rd.forward(rq, rs);
         }
 
 
