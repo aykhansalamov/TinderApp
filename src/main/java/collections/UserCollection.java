@@ -10,10 +10,16 @@ import java.util.Map;
 
 public class UserCollection implements UserDAO {
     static Map<Integer, User> userData = new HashMap<>();
-    User user = new User();
+     User user = new User();
     public static Map<Integer, User> save(){
         userData.put(1, new User("cristiano.ronaldo@gmail.com", "123456"));
+        userData.put(2, new User("leo.messi@gmail.com", "123456"));
+        userData.put(3, new User("elon.musk@gmail.com", "123456"));
+        userData.put(4, new User("selena.gomez@gmail.com", "123456"));
         return userData;
+    }
+    public void newUser() {
+        userData.put(user.id, new User(user.username, user.password));
     }
 
     @Override
