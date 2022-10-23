@@ -1,18 +1,20 @@
 package models;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Objects;
+import java.util.*;
 
 public class User {
     public int id;
+
+
     public String username;
     public String password;
     public String photo;
-    public Map<Integer, List<Integer>> liked;
+    public List<Integer> idList = new ArrayList<>();
+    public Map<Integer, List<Integer>> liked = new HashMap<>();
 
     private boolean firstConstructor = false;
     private boolean secondConstructor = false;
+    private boolean thirdConstructor = false;
 
     public User(int id, String username, String photo, Map<Integer, List<Integer>> liked) {
         this.id = id;
@@ -28,10 +30,16 @@ public class User {
         secondConstructor = true;
 
     }
+    public User(int id) {
+        this.id = id;
+        thirdConstructor = true;
+    }
 
     public User() {
 
     }
+
+
 
     @Override
     public String toString() {
@@ -43,9 +51,10 @@ public class User {
                     ", liked='" + liked + '\'' +
                     '}';
         else if (secondConstructor)
-            return "username='" + username + '\'' +
-                    ", password='" + password;
-
+            return "username=" + username + '\'' +
+                    ", password=" + password;
+        else if (thirdConstructor)
+            return "id=" + id;
 else
         return null;
     }
