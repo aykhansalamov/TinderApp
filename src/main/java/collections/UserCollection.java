@@ -3,6 +3,9 @@ package collections;
 import interfaces.UserDAO;
 import models.User;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
@@ -24,7 +27,22 @@ public class UserCollection implements UserDAO {
 
     @Override
     public User get(int id) throws SQLException {
-        return null;
+        Connection con = Database.getConnection();
+        User user = null;
+        String sql = "SELECT id, username, password,name, url FROM user WHERE id = ?";
+
+        PreparedStatement ps = con.prepareStatement(sql);
+        ps.setInt(1, id);
+        ResultSet rs = ps.executeQuery();
+        if (rs.next()) {
+            int oid = rs.getInt("id");
+            String username = rs.getString("username");
+            String password = rs.getString("password");
+            String name = rs.getString("name");
+            String url = rs.getString("url");
+            user = new User(oid, username, password, name, url);
+        }
+        return user;
     }
 
     @Override

@@ -5,7 +5,7 @@ import java.util.*;
 public class User {
     public int id;
 
-
+    public String name;
     public String username;
     public String password;
     public String photo;
@@ -16,6 +16,15 @@ public class User {
     private boolean secondConstructor = false;
     private boolean thirdConstructor = false;
 
+
+    /** Added */
+    public User(int oid,String username,String password,String name,String url){
+        this.id = oid;
+        this.username = username;
+        this.password = password;
+        this.name = name;
+        this.photo = url;
+    }
     public User(int id, String username, String photo, Map<Integer, List<Integer>> liked) {
         this.id = id;
         this.username = username;
@@ -38,8 +47,6 @@ public class User {
     public User() {
 
     }
-
-
 
     @Override
     public String toString() {

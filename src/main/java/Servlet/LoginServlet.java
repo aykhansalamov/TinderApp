@@ -42,7 +42,7 @@ public class LoginServlet extends HttpServlet {
         try (PrintWriter w = rs.getWriter()) {
             String email = rq.getParameter("inputEmail");
             String password = rq.getParameter("inputPassword");
-if ()
+//if ()
             rs.setContentType("text/html");
             PrintWriter pw=rs.getWriter();
 
