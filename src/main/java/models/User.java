@@ -12,7 +12,7 @@ public class User {
     public int userID;
     public List<Integer> idList = new ArrayList<>();
     public Map<Integer, List<Integer>> liked = new HashMap<>();
-
+    public static Map<String, String> loginPass = new HashMap<>();
     private boolean firstConstructor = false;
     private boolean secondConstructor = false;
     private boolean thirdConstructor = false;
