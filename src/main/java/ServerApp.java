@@ -13,9 +13,9 @@ import java.util.List;
 public class ServerApp {
     public static void main(String[] args) throws Exception {
 
-        UserDAO userdao = new UserCollection();
-        User user = userdao.get(23);
-        System.out.println(user);
+//        UserDAO userdao = new UserCollection();
+//        User user = userdao.get(23);
+//        System.out.println(user);
 
 
 //        List<User> users;
@@ -24,6 +24,21 @@ public class ServerApp {
 //        for (User user : users){
 //            System.out.println(user);
 //        }
+
+
+//        UserDAO userDAO = new UserCollection();
+//        User user = new User(77,"Azar@gmail.com","456","Azar","photo");
+//        int result = userDAO.insert(user);
+//        System.out.println(result);
+
+
+        UserDAO userDAO = new UserCollection();
+        User user = new User(7,"Ibra@gmail.com","111","Ibr","photok");
+        int result = userDAO.update(user);
+        System.out.println(result);
+
+
+
 //        UserCollection user = new UserCollection();
 //        Server server = new Server(2022);
 //        ServletContextHandler handler = new ServletContextHandler();

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Database initial">
+    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Database V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collections/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/Database.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/collections/UserCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/UserCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson25sql3",
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/SelfStudy/src/main/java/dao",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -115,7 +116,7 @@
       <workItem from="1666090871020" duration="10397000" />
       <workItem from="1666526687420" duration="3112000" />
       <workItem from="1666607778528" duration="6067000" />
-      <workItem from="1666691285972" duration="6478000" />
+      <workItem from="1666691285972" duration="12470000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1665410127947</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666613400336</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Database V2">
+      <created>1666707860726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666707860726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +213,7 @@
     <MESSAGE value="DAO" />
     <MESSAGE value="Added new features" />
     <MESSAGE value="Database initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database initial" />
+    <MESSAGE value="Database V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database V2" />
   </component>
 </project>

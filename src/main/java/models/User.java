@@ -9,6 +9,7 @@ public class User {
     public String username;
     public String password;
     public String photo;
+    public int userID;
     public List<Integer> idList = new ArrayList<>();
     public Map<Integer, List<Integer>> liked = new HashMap<>();
 
@@ -87,4 +88,93 @@ else
     public int hashCode() {
         return Objects.hash(id, username, photo, liked);
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
+    public List<Integer> getIdList() {
+        return idList;
+    }
+
+    public void setIdList(List<Integer> idList) {
+        this.idList = idList;
+    }
+
+    public Map<Integer, List<Integer>> getLiked() {
+        return liked;
+    }
+
+    public void setLiked(Map<Integer, List<Integer>> liked) {
+        this.liked = liked;
+    }
+
+    public boolean isFirstConstructor() {
+        return firstConstructor;
+    }
+
+    public void setFirstConstructor(boolean firstConstructor) {
+        this.firstConstructor = firstConstructor;
+    }
+
+    public boolean isSecondConstructor() {
+        return secondConstructor;
+    }
+
+    public void setSecondConstructor(boolean secondConstructor) {
+        this.secondConstructor = secondConstructor;
+    }
+
+    public boolean isThirdConstructor() {
+        return thirdConstructor;
+    }
+
+    public void setThirdConstructor(boolean thirdConstructor) {
+        this.thirdConstructor = thirdConstructor;
+    }
+
+    public boolean isFourthConstructor() {
+        return fourthConstructor;
+    }
+
+    public void setFourthConstructor(boolean fourthConstructor) {
+        this.fourthConstructor = fourthConstructor;
+    }
 }
+

@@ -71,12 +71,39 @@ public class UserCollection implements UserDAO {
 
     @Override
     public int insert(User user) throws SQLException {
-        return 0;
+        Connection con = Database.getConnection();
+        String sql = "INSERT INTO data (id, username, password, name, photo) VALUES (?,?,?,?,?)";
+        PreparedStatement ps = con.prepareStatement(sql);
+        ps.setInt(1, user.getId());
+        ps.setString(2,user.getUsername());
+        ps.setString(3,user.getPassword());
+        ps.setString(4,user.getName());
+        ps.setString(5,user.getPhoto());
+
+        int result = ps.executeUpdate();
+        Database.closePreparedStatement(ps);
+        Database.closeConnection(con);
+        return result;
+
     }
 
     @Override
     public int update(User user) throws SQLException {
-        return 0;
+//        Connection con = Database.getConnection();
+//        String sql = "UPDATE data set  id=?, username = ?, password=?, name=?, photo=? WHERE id=?";
+//        PreparedStatement ps= con.prepareStatement(sql);
+//        ps.setInt(1, user.getId());
+//        ps.setString(3,user.getUsername());
+//        ps.setString(4,user.getPassword());
+//        ps.setString(5,user.getName());
+//        ps.setString(6,user.getPhoto());
+//        ps.setInt(7,user.get);
+//
+//        int result = ps.executeUpdate();
+//        Database.closePreparedStatement(ps);
+//        Database.closeConnection(con);
+//        return result;
+        return 1;
     }
 
     @Override
