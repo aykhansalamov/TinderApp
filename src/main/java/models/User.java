@@ -15,33 +15,35 @@ public class User {
     private boolean firstConstructor = false;
     private boolean secondConstructor = false;
     private boolean thirdConstructor = false;
+    private boolean fourthConstructor = false;
 
 
     /** Added */
-    public User(int oid,String username,String password,String name,String url){
-        this.id = oid;
+    public User(int id,String username,String password,String name,String photo){
+        this.id = id;
         this.username = username;
         this.password = password;
         this.name = name;
-        this.photo = url;
+        this.photo = photo;
+        firstConstructor = true;
     }
     public User(int id, String username, String photo, Map<Integer, List<Integer>> liked) {
         this.id = id;
         this.username = username;
         this.photo = photo;
         this.liked = liked;
-        firstConstructor = true;
+        secondConstructor = true;
     }
 
     public User(String username, String password) {
         this.username = username;
         this.password = password;
-        secondConstructor = true;
+        thirdConstructor = true;
 
     }
     public User(int id) {
         this.id = id;
-        thirdConstructor = true;
+        fourthConstructor = true;
     }
 
     public User() {
@@ -51,16 +53,22 @@ public class User {
     @Override
     public String toString() {
         if (firstConstructor)
+            return "id=" + id + ", username='" + username + '\'' +
+                        ", password='" + password + '\'' +
+                        ", name='" + name + '\'' +
+                ", photo='" + photo + '\'' +
+                '}';
+        if (secondConstructor)
             return "models.User{" +
                     "id=" + id +
                     ", username='" + username + '\'' +
                     ", photo='" + photo + '\'' +
                     ", liked='" + liked + '\'' +
                     '}';
-        else if (secondConstructor)
+        else if (thirdConstructor)
             return "username=" + username + '\'' +
                     ", password=" + password;
-        else if (thirdConstructor)
+        else if (fourthConstructor)
             return "id=" + id;
 else
         return null;

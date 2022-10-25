@@ -3,10 +3,8 @@ package collections;
 import interfaces.UserDAO;
 import models.User;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,7 +27,7 @@ public class UserCollection implements UserDAO {
     public User get(int id) throws SQLException {
         Connection con = Database.getConnection();
         User user = null;
-        String sql = "SELECT id, username, password,name, url FROM user WHERE id = ?";
+        String sql = "SELECT id, username, password,name, photo FROM data WHERE id = ?";
 
         PreparedStatement ps = con.prepareStatement(sql);
         ps.setInt(1, id);
@@ -39,15 +37,31 @@ public class UserCollection implements UserDAO {
             String username = rs.getString("username");
             String password = rs.getString("password");
             String name = rs.getString("name");
-            String url = rs.getString("url");
-            user = new User(oid, username, password, name, url);
+            String photo = rs.getString("photo");
+            user = new User(oid, username, password, name, photo);
         }
         return user;
     }
 
     @Override
     public List<User> getAll() throws SQLException {
-        return null;
+        Connection con = Database.getConnection();
+        String sql = "SELECT id, username, password,name , photo FROM data";
+        List<User> users = new ArrayList<>();
+
+        Statement stat = con.createStatement();
+        ResultSet rs = stat.executeQuery(sql);
+        while(rs.next()){
+            int id = rs.getInt("id");
+            String username = rs.getString("username");
+            String password = rs.getString("password");
+            String name = rs.getString("name");
+            String photo = rs.getString("photo");
+            User user1 = new User(id, username, password, name, photo);
+            users.add(user1);
+        }
+        return users;
+
     }
 
     @Override

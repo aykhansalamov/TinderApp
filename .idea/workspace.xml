@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Collections update">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Database initial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servlet/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/collections/UserCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/UserCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
     </list>
@@ -58,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/azari/IdeaProjects/TinderApp",
+    "last_opened_file_path": "C:/Users/azari/IdeaProjects/az-be5/src/main/java/lesson25sql3",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -118,7 +114,8 @@
       <workItem from="1665906102365" duration="15454000" />
       <workItem from="1666090871020" duration="10397000" />
       <workItem from="1666526687420" duration="3112000" />
-      <workItem from="1666607778528" duration="5293000" />
+      <workItem from="1666607778528" duration="6067000" />
+      <workItem from="1666691285972" duration="6478000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1665410127947</created>
@@ -176,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666534544337</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Database initial">
+      <created>1666613400313</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666613400336</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +204,7 @@
     <MESSAGE value="Static File Servlet" />
     <MESSAGE value="DAO" />
     <MESSAGE value="Added new features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new features" />
+    <MESSAGE value="Database initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database initial" />
   </component>
 </project>
