@@ -11,5 +11,5 @@ public interface UserDAO {
     int save(User user) throws SQLException;
     int insert(User user) throws SQLException;
     int update(User user) throws SQLException;
-    int delete(User user);
+    int delete(User user) throws SQLException;
 }

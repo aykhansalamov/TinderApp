@@ -32,9 +32,15 @@ public class ServerApp {
 //        System.out.println(result);
 
 
+//        UserDAO userDAO = new UserCollection();
+//        User user = new User(7,"Ibra@gmail.com","111","Ibr","photok");
+//        int result = userDAO.update(user);
+//        System.out.println(result);
+
         UserDAO userDAO = new UserCollection();
-        User user = new User(7,"Ibra@gmail.com","111","Ibr","photok");
-        int result = userDAO.update(user);
+        User user = userDAO.get(23);
+        System.out.println(user);
+        int result = userDAO.delete(user);
         System.out.println(result);
 
 

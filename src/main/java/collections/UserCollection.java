@@ -107,7 +107,14 @@ public class UserCollection implements UserDAO {
     }
 
     @Override
-    public int delete(User user) {
-        return 0;
+    public int delete(User user) throws SQLException {
+        Connection connection = Database.getConnection();
+        String sql = "DELETE FROM data WHERE id = ?";
+        PreparedStatement ps = connection.prepareStatement(sql);
+        ps.setInt(1,user.getId());
+        int result = ps.executeUpdate();
+        Database.closePreparedStatement(ps);
+        Database.closeConnection(connection);
+        return result;
     }
 }
