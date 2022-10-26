@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Database V3">
+    <list default="true" id="9d2c5cba-e592-47b6-b0d5-0c50488a926e" name="Changes" comment="Database V4">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25-Oct-22_20_04__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/collections/UserCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collections/UserCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/UserDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/azari/IdeaProjects/SelfStudy/src/main/java/dao&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -116,7 +116,10 @@
       <workItem from="1666526687420" duration="3112000" />
       <workItem from="1666607778528" duration="6067000" />
       <workItem from="1666691285972" duration="12531000" />
-      <workItem from="1666770166723" duration="5606000" />
+      <workItem from="1666770166723" duration="6355000" />
+      <workItem from="1666789405916" duration="322000" />
+      <workItem from="1666789963480" duration="45000" />
+      <workItem from="1666790166501" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="Commit and push">
       <created>1665410127947</created>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666713825469</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Database V4">
+      <created>1666788225344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666788225344</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +232,7 @@
     <MESSAGE value="Database initial" />
     <MESSAGE value="Database V2" />
     <MESSAGE value="Database V3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database V3" />
+    <MESSAGE value="Database V4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database V4" />
   </component>
 </project>
