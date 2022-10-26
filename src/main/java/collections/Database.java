@@ -9,7 +9,7 @@ public class Database {
     public static Connection getConnection() throws SQLException{
         Connection connection = null;
         connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres",
-                "postgres","postgresql");
+                "postgres","Ayxan12345");
         return connection;
     }
     public static void closeConnection(Connection connection) throws SQLException {

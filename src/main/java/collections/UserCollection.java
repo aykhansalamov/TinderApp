@@ -4,15 +4,13 @@ import interfaces.UserDAO;
 import models.User;
 
 import java.sql.*;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class UserCollection implements UserDAO {
     static Map<Integer, User> userData = new HashMap<>();
      User user = new User();
-    public static Map<Integer, User> save(){
+    public static Map<Integer, User> saved(){
         userData.put(1, new User("cristiano.ronaldo@gmail.com", "123456"));
         userData.put(2, new User("leo.messi@gmail.com", "123456"));
         userData.put(3, new User("elon.musk@gmail.com", "123456"));
@@ -44,23 +42,23 @@ public class UserCollection implements UserDAO {
     }
 
     @Override
-    public List<User> getAll() throws SQLException {
+    public void getAll() throws SQLException {
         Connection con = Database.getConnection();
         String sql = "SELECT id, username, password,name , photo FROM data";
-        List<User> users = new ArrayList<>();
+
 
         Statement stat = con.createStatement();
         ResultSet rs = stat.executeQuery(sql);
         while(rs.next()){
             int id = rs.getInt("id");
-            String username = rs.getString("username");
-            String password = rs.getString("password");
-            String name = rs.getString("name");
-            String photo = rs.getString("photo");
-            User user1 = new User(id, username, password, name, photo);
-            users.add(user1);
+            user.username = rs.getString("username");
+            user.password = rs.getString("password");
+            user.name = rs.getString("name");
+            user.photo = rs.getString("photo");
+            User user1 = new User(id, user.username, user.password, user.name, user.photo);
+            user.users.add(user1);
         }
-        return users;
+
 
     }
 

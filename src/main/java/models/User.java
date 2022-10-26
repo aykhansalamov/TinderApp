@@ -11,6 +11,7 @@ public class User {
     public String photo;
     public int userID;
     public List<Integer> idList = new ArrayList<>();
+    public List<User> users = new ArrayList<>();
     public Map<Integer, List<Integer>> liked = new HashMap<>();
     public static Map<String, String> loginPass = new HashMap<>();
     private boolean firstConstructor = false;
