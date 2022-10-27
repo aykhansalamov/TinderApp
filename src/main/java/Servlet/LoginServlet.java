@@ -61,20 +61,20 @@ public class LoginServlet extends HttpServlet {
             String password = rq.getParameter("password");
             rs.setContentType("text/html");
             PrintWriter pw = rs.getWriter();
-userCollection.getAll();
-                if (user.users.contains(email) && user.users.contains(password)) {
-                    userCollection.getAll();
-                    System.out.println(user.users);
-
-                   // rs.sendRedirect("http://localhost:2022/likePage");
-
-                } else {
-                    userCollection.getAll();
-                    System.out.println(user.users);
-              //  rs.sendRedirect("http://localhost:2022/login");
-
-                }
-            pw.close();
+//userCollection.getAll();
+//                if (user.users.contains(email) && user.users.contains(password)) {
+//                    userCollection.getAll();
+//                    System.out.println(user.users);
+//
+//                   // rs.sendRedirect("http://localhost:2022/likePage");
+//
+//                } else {
+//                    userCollection.getAll();
+//                    System.out.println(user.users);
+//              //  rs.sendRedirect("http://localhost:2022/login");
+//
+//                }
+//            pw.close();
 //                } else if (!user.users.contains(email)) {
 //
 //                    user.id = randomId();

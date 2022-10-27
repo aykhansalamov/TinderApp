@@ -37,26 +37,27 @@ public class ServerApp {
 //        int result = userDAO.update(user);
 //        System.out.println(result);
 
-        UserDAO userDAO = new UserCollection();
-        User user = userDAO.get(23);
-        System.out.println(user);
-        int result = userDAO.delete(user);
-        System.out.println(result);
+//        UserDAO userDAO = new UserCollection();
+//        User user = userDAO.get(23);
+//        System.out.println(user);
+//        int result = userDAO.delete(user);
+//        System.out.println(result);
 
 
 
-//        UserCollection user = new UserCollection();
-//        Server server = new Server(2022);
-//        ServletContextHandler handler = new ServletContextHandler();
-//        handler.addServlet(new ServletHolder(new TestServlet()), "/users");
-//        handler.addServlet(new ServletHolder(new PeopleListServlet()), "/show");
-//        handler.addServlet(new ServletHolder(new LikePageServlet()), "/likePage");
-//        handler.addServlet(new ServletHolder(new ChatServlet()), "/chat");
-//        handler.addServlet(new ServletHolder(new LoginServlet()), "/login");
-//        handler.addServlet(new ServletHolder(new StaticFileServlet()), "/*");
-//        server.setHandler(handler);
-//        server.start();
-//        server.join();
+        UserCollection userCollection = new UserCollection();
+       // userCollection.getAll();
+        Server server = new Server(2022);
+        ServletContextHandler handler = new ServletContextHandler();
+        handler.addServlet(new ServletHolder(new TestServlet()), "/users");
+        handler.addServlet(new ServletHolder(new PeopleListServlet()), "/show");
+        handler.addServlet(new ServletHolder(new LikePageServlet()), "/likePage");
+        handler.addServlet(new ServletHolder(new ChatServlet()), "/chat");
+        handler.addServlet(new ServletHolder(new LoginServlet()), "/login");
+        handler.addServlet(new ServletHolder(new StaticFileServlet()), "/*");
+        server.setHandler(handler);
+        server.start();
+        server.join();
 
 //        user.saved();
 //        System.out.println( user.save());
